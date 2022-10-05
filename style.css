@@ -130,7 +130,7 @@ footer p {
   text-align: center;
   padding: 20px;
 }
-
+/*
 /* -------- Media Query ------ */
 @media all and (min-width: 480px) {
   body {
@@ -261,11 +261,12 @@ footer p {
     text-align: center;
     padding: 20px;
   }
-}
+} 
+*/
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 480px) {
 
   header {
     display: flex;
