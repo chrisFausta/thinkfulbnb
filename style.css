@@ -83,10 +83,7 @@ header nav ul li a {
   padding: 0 20px 0 0;
 }
 
-header nav ul li a:hover {
-  color: #bdbdbd;
-  text-decoration: none;
-}
+
 
 /* -------  Search Form ------- */
 form {
@@ -130,9 +127,9 @@ footer p {
   text-align: center;
   padding: 20px;
 }
-/*
+
 /* -------- Media Query ------ */
-@media all and (min-width: 480px) {
+@media all and (min-width: 800px) {
   body {
     font-family: "Lato", sans-serif;
   }
@@ -261,12 +258,11 @@ footer p {
     text-align: center;
     padding: 20px;
   }
-} 
-*/
+}
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 800px) {
 
   header {
     display: flex;
