@@ -190,8 +190,9 @@ footer p {
   
   .logo {
     font-family: "Pangolin", cursive;
-    font-size: 72px;
+    font-size: 38px;
     color: #fff;
+
   }
   
   header nav ul {
@@ -234,7 +235,7 @@ footer p {
   form select,
   form input {
     margin-bottom: 20px;
-    width: 165px;
+    width: 90%;
     box-sizing: border-box;
   }
   
@@ -262,7 +263,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 480px) {
 
   header {
     display: flex;
@@ -281,6 +282,7 @@ footer p {
   form div {
     display: flex;
     flex-direction: column;
+    width: 20%;
   }
 
   form div input {
